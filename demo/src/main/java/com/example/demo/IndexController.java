@@ -13,4 +13,10 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/index")
+    @ResponseBody
+    public String Index2(){
+        return "我是帅哥";
+    }
+
 }

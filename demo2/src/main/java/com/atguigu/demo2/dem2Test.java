@@ -16,4 +16,11 @@ public class dem2Test {
         }
 
     }
+        @RequestMapping("/index")
+        @ResponseBody
+        public String Index(){
+            return "你是猪吗";
+        }
+
+
 }
