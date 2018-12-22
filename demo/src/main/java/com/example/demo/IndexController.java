@@ -16,7 +16,7 @@ public class IndexController {
     @RequestMapping("/index")
     @ResponseBody
     public String Index2(){
-        return "我是帅哥";
+        return "我是帅哥啦啦啦";
     }
 
 }
